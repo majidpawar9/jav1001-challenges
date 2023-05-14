@@ -18,7 +18,7 @@ fun sortedSquares(list: List<Int>): List<Int> {
         index++
         var square = num * num
         squareList.add(square)
-        // squareList.sort()
+        squareList.sort()
     }
     return squareList
 }
